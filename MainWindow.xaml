@@ -1,0 +1,42 @@
+﻿<Window x:Class="TestCenter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        xmlns:local="clr-namespace:TestCenter"
+        xmlns:n="clr-namespace:TestCenter"
+        mc:Ignorable="d"
+        Title="TestCenter" Height="500" Width="800" Background="Transparent">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid>
+        <!-- Main Split Layout -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="158" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Navigation Bar (Left Sidebar) -->
+        <Border  Grid.Column="0">
+            <StackPanel Background="#FF4D4D4D">
+                <Button Content="Tests" HorizontalAlignment="Left" Click="NavigateToTests" Width="148" Margin="5,10,5,0" />
+                <Button Content="View Tests" HorizontalAlignment="Left" Click="NavigateToViewTests" Width="148" Margin="5,10,5,0"/>
+                <Button Content="View Mockup PDF" HorizontalAlignment="Left" Click="NavigateToMockupPdf" Width="148" Margin="5,10,5,0"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Content Area -->
+        <Grid Grid.Column="1" Background="White">
+            <Border BorderBrush="#FF4D4D4D" BorderThickness="3" CornerRadius="0,4,4,0" Margin="0,0,5,0">
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
+
