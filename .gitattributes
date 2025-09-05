@@ -1,0 +1,168 @@
+# Copia LFS defaults (version: 8)
+
+## Generic
+
+### *.xml
+*.[xX][mM][lL] filter=lfs binary
+
+### *.zip
+*.[zZ][iI][pP] filter=lfs binary
+
+
+## Rockwell: Studio 5000/Logix Designer
+
+### *.acd
+*.[aA][cC][dD] filter=lfs binary
+
+### *.acd.recovery
+*.[aA][cC][dD].[rR][eE][cC][oO][vV][eE][rR][yY] filter=lfs binary
+
+### *.l5k
+*.[lL]5[kK] filter=lfs binary
+
+### *.l5x
+*.[lL]5[xX] filter=lfs binary
+
+
+## Rockwell: RSLogix 500
+
+### *.rss
+*.[rR][sS][sS] filter=lfs binary
+
+
+## Rockwell: PanelView ME
+
+### *.med
+*.[mM][eE][dD] filter=lfs binary
+
+### *.apa
+*.[aA][pP][aA] filter=lfs binary
+
+### *.mer
+*.[mM][eE][rR] filter=lfs binary
+
+
+## Siemens: TIA
+
+### *.zap14
+*.[zZ][aA][pP]14 filter=lfs binary
+
+### *.zap15
+*.[zZ][aA][pP]15 filter=lfs binary
+
+### *.zap15_1
+*.[zZ][aA][pP]15_1 filter=lfs binary
+
+### *.zap16
+*.[zZ][aA][pP]16 filter=lfs binary
+
+### *.zap17
+*.[zZ][aA][pP]17 filter=lfs binary
+
+### *.zap18
+*.[zZ][aA][pP]18 filter=lfs binary
+
+### *.zap19
+*.[zZ][aA][pP]19 filter=lfs binary
+
+### *.zap20
+*.[zZ][aA][pP]20 filter=lfs binary
+
+### *.zal15_1
+*.[zZ][aA][lL]15_1 filter=lfs binary
+
+### *.zal16
+*.[zZ][aA][lL]16 filter=lfs binary
+
+### *.zal17
+*.[zZ][aA][lL]17 filter=lfs binary
+
+### *.zal18
+*.[zZ][aA][lL]18 filter=lfs binary
+
+### *.zal19
+*.[zZ][aA][lL]19 filter=lfs binary
+
+### *.zal20
+*.[zZ][aA][lL]20 filter=lfs binary
+
+
+## Schneider: EcoStruxure Control Expert/Unity
+
+### *.sta
+*.[sS][tT][aA] filter=lfs binary
+
+### *.stu
+*.[sS][tT][uU] filter=lfs binary
+
+### *.xef
+*.[xX][eE][fF] filter=lfs binary
+
+### *.zef
+*.[zZ][eE][fF] filter=lfs binary
+
+
+## Codesys
+
+### *.archive
+*.[aA][rR][cC][hH][iI][vV][eE] filter=lfs binary
+
+### *.export
+*.[eE][xX][pP][oO][rR][tT] filter=lfs binary
+
+### *.library
+*.[lL][iI][bB][rR][aA][rR][yY] filter=lfs binary
+
+### *.project
+*.[pP][rR][oO][jJ][eE][cC][tT] filter=lfs binary
+
+### *.ecp
+*.[eE][cC][pP] filter=lfs binary
+
+
+## Beckhoff: TwinCat3
+
+### *.plcproj
+*.[pP][lL][cC][pP][rR][oO][jJ] filter=lfs binary
+
+### *.splcproj
+*.[sS][pP][lL][cC][pP][rR][oO][jJ] filter=lfs binary
+
+### *.tcDUT
+*.[tT][cC][dD][uU][tT] filter=lfs binary
+
+### *.tcGTLO
+*.[tT][cC][gG][tT][lL][oO] filter=lfs binary
+
+### *.tcGVL
+*.[tT][cC][gG][vV][lL] filter=lfs binary
+
+### *.tcIO
+*.[tT][cC][iI][oO] filter=lfs binary
+
+### *.tcPOU
+*.[tT][cC][pP][oO][uU] filter=lfs binary
+
+### *.tcTTO
+*.[tT][cC][tT][tT][oO] filter=lfs binary
+
+### *.tcVIS
+*.[tT][cC][vV][iI][sS] filter=lfs binary
+
+### *.tcVMO
+*.[tT][cC][vV][mM][oO] filter=lfs binary
+
+### *.tnzip
+*.[tT][nN][zZ][iI][pP] filter=lfs binary
+
+### *.tspproj
+*.[tT][sS][pP][pP][rR][oO][jJ] filter=lfs binary
+
+### *.tsproj
+*.[tT][sS][pP][rR][oO][jJ] filter=lfs binary
+
+### *.vcxproj
+*.[vV][cC][xX][pP][rR][oO][jJ] filter=lfs binary
+
+### *.xti
+*.[xX][tT][iI] filter=lfs binary
